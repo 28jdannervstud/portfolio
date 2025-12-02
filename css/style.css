@@ -1,0 +1,69 @@
+html, body{
+    height:100%;
+}
+.hero1{
+    height:100%;
+    margin-top:-8px;
+    margin-left:-8px;
+    background-image:linear-gradient(magenta,blue);
+    background-size: fill;
+    border-radius:5px;
+    border-color:green;
+    border-style:solid;
+    box-sizing:border-box;
+    display:flex;
+    justify-content: space-between;
+}
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1rem;
+}
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.986rem;
+}
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.488rem;
+}
+h3 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:2.074rem;
+}
+
+.blue{
+    color:blue;
+}
+.magenta{
+    color:magenta;
+}
+.purple{
+    color:blueviolet;
+}
+.paragraphbox{
+    background-color: white;
+    border-radius: 10% 10% 10% 10%;
+    width:500px;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:15px;
+    box-sizing: border-box;
+    box-shadow: 10px 8px 10px 0px black;
+}
+*:before, *:after{
+    box-sizing: inherit;
+}
+.paragraphbox:hover{
+    background-color: palegreen;
+    transition:1s;
+    transform: translateY(-10px);
+    
+}
+nav{
+    position:fixed;
+    right:0px;
+    background-color: white;
+    width:100px;
+    height:110%;
+    margin-top:-10px;
+}
