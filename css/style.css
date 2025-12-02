@@ -1,8 +1,11 @@
 html, body{
     height:100%;
+    font-size: 100%;
+    scroll-behavior: smooth;
 }
 .hero1{
     height:100%;
+    width:95%;
     margin-top:-8px;
     margin-left:-8px;
     background-image:linear-gradient(magenta,blue);
@@ -66,4 +69,17 @@ nav{
     width:100px;
     height:110%;
     margin-top:-10px;
+}
+.hero2{
+    height:100%;
+    width:95%;
+    margin-left:-8px;
+    background-color:magenta;
+    background-size: fill;
+    border-radius:5px;
+    border-color:green;
+    border-style:solid;
+    box-sizing:border-box;
+    display:flex;
+    justify-content: space-between;
 }
